@@ -30,7 +30,7 @@ forge tunnel
 ```
 ## 👋 Welcome Screen
 
-![Hello World App Screenshot](/first quest completed.png)
+![Hello World App Screenshot](first quest completed.png)
 
 
 ### Notes
