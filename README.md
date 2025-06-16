@@ -28,6 +28,10 @@ forge install
 ```
 forge tunnel
 ```
+## 👋 Welcome Screen
+
+![Hello World App Screenshot](/first quest completed.png)
+
 
 ### Notes
 - Use the `forge deploy` command when you want to persist code changes.
