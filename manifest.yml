@@ -1,0 +1,25 @@
+modules:
+  confluence:spacePage:
+    - key: my-first-quest-hello-world-space-page
+      resource: main
+      resolver:
+        function: resolver
+      render: native
+      title: vishpkr92-first-quest
+      route: hello-world
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/2aa180ed-6c5d-4e24-8169-dee7f7f2aa95
+permissions:
+  scopes:
+    - read:comment:confluence
+    - read:user:confluence
